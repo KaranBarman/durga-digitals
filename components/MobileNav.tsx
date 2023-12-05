@@ -113,8 +113,7 @@ const MobileNav = () => {
               </div>
               <div className="flow-root">
                 <Link
-                  onClick={() => closeOnCurrent("/contact-us")}
-                  href="/contact-us"
+                  href="https://wa.me/message/KZYCFDFL3N6NA1?src=qr"
                   className="-m-2 block p-2 font-medium text-gray-900"
                 >
                   Contact us

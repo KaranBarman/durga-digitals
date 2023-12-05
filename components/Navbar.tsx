@@ -6,6 +6,7 @@ import NavItems from "./NavItems";
 import { Button, buttonVariants } from "./ui/button";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
         <MaxWidthWrapper>
           <div className=" flex items-center h-16">
             <MobileNav />
-            <div className=" ml-4 flex lg:ml-0">
+            <div className=" ml-4 flex lg:ml-0 items-center gap-8">
               <Link href={"/"}>
                 <Image
                   src={"/Untitled design.png"}
@@ -23,6 +24,15 @@ const Navbar = () => {
                   height={50}
                   unoptimized
                 />
+              </Link>
+              <Link
+                href={"https://wa.me/message/KZYCFDFL3N6NA1?src=qr"}
+                className={cn(
+                  buttonVariants({ variant: "secondary" }),
+                  " lg:hidden"
+                )}
+              >
+                Contact us
               </Link>
             </div>
             <div className=" hidden z-50 lg:ml-8 lg:block lg:self-stretch">

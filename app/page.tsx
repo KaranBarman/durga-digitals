@@ -32,11 +32,11 @@ export default function Home() {
   return (
     <>
       <MaxWidthWrapper>
-        <div className=" py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
+        <div className=" py-20 mx-auto text-center flex flex-col items-center max-w-4xl">
           <h1 className=" text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Shift your shop online with us!{""}
+            Durga Digitals, Digital Marketing Agency Jaipur
             <span className=" text-blue-600">
-              &nbsp;Boost sales, enhance visibility
+              &nbsp;Shift your shop online with us!{""}
             </span>
           </h1>
           <p className=" mt-6 text-lg max-w-prose text-muted-foreground">
