@@ -6,6 +6,7 @@ import ProductReel from "@/components/ProductReel";
 import Why from "./products/why";
 import Heading2 from "@/components/Heading2";
 import { PiShootingStarFill } from "react-icons/pi";
+import Image from "next/image";
 
 const perks = [
   {
@@ -58,6 +59,38 @@ export default function Home() {
             >
               Get started now
             </Link>
+          </div>
+
+          <div>
+            <ul className=" flex items-center justify-center">
+              <li>
+                <Image
+                  src={"/logos/logo1.png"}
+                  alt="com"
+                  width={100}
+                  height={100}
+                  className=" grayscale"
+                />
+              </li>
+              <li>
+                <Image
+                  src={"/logos/logo2.png"}
+                  alt="com"
+                  width={100}
+                  height={100}
+                  className=" grayscale"
+                />
+              </li>
+              <li>
+                <Image
+                  src={"/logos/logo3.png"}
+                  alt="com"
+                  width={100}
+                  height={100}
+                  className="   grayscale"
+                />
+              </li>
+            </ul>
           </div>
         </div>
 
