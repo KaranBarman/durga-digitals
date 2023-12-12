@@ -108,7 +108,7 @@ export default function Home() {
           href="/products"
           subTitle="Engaging posts, graphics, and multimedia content for various platforms"
           key={"hiillo"}
-          link="Shop the collection"
+          link="Shop the collections"
         />
       </MaxWidthWrapper>
       <section className="border-t border-gray-200 bg-gray-50">
