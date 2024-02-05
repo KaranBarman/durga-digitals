@@ -49,20 +49,11 @@ export default function Home() {
               {<PiShootingStarFill className="text-yellow-500" />}
             </Heading2>
           </Why>
-          <div className=" flex flex-col sm:flex-row gap-4 mt-6">
-            <Link href={"/products"} className={buttonVariants()}>
-              Browse Trending
-            </Link>
-            <Link
-              href={"https://wa.me/message/KZYCFDFL3N6NA1?src=qr"}
-              className={buttonVariants({ variant: "ghost" })}
-            >
-              Get started now
-            </Link>
-          </div>
-
-          <div>
-            <ul className=" flex items-center justify-center">
+          <div className="p-8">
+            <h1 className="text-4xl font-bold capitalize">
+              our precious client
+            </h1>
+            <ul className=" flex items-center justify-center py-4 gap-5">
               <li>
                 <Image
                   src={"/logos/logo1.png"}
@@ -91,6 +82,17 @@ export default function Home() {
                 />
               </li>
             </ul>
+          </div>
+          <div className=" flex flex-col sm:flex-row gap-4 mt-6">
+            <Link href={"/products"} className={buttonVariants()}>
+              Browse Trending
+            </Link>
+            <Link
+              href={"https://wa.me/message/KZYCFDFL3N6NA1?src=qr"}
+              className={buttonVariants({ variant: "ghost" })}
+            >
+              Get started now
+            </Link>
           </div>
         </div>
 
