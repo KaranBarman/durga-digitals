@@ -53,7 +53,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold capitalize">
               our precious client
             </h1>
-            <ul className=" flex items-center justify-center py-10 gap-10">
+            <ul className=" flex items-center justify-center py-4 gap-5">
               <li>
                 <Image
                   src={"/logos/logo1.png"}
@@ -79,6 +79,7 @@ export default function Home() {
                   alt="com"
                   width={100}
                   height={100}
+                  className=" grayscale"
                 />
               </li>
               <li>

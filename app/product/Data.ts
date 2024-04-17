@@ -55,7 +55,9 @@ export const data = [
   {
     name: "Basic Plan - Essential Social Boost",
     label: "Social media marketing",
+
     price: 12000,
+
     urls: ["/smm/smm-1.jpg", "/smm/smm-2.jpg", "/smm/smm-3.jpg"],
     href: "4",
     description:
@@ -70,7 +72,9 @@ export const data = [
   {
     name: "Pro Plan - Premium Engagement Suite",
     label: "Social media marketing",
+
     price: 15000,
+
     urls: ["/smm/smm-4.jpg", "/smm/smm-5.jpg", "/smm/smm-6.jpg"],
 
     href: "5",
@@ -82,13 +86,16 @@ export const data = [
       "Influencer Partnerships",
       "Social Media Audits",
       "15 creative posts",
+
       "3 marketing reels",
     ],
   },
   {
     name: "Enterprise Plan - Strategic Social Dominance",
     label: "Social media marketing",
+
     price: 18000,
+
     urls: ["/smm/smm-7.jpg", "/smm/smm-8.jpg", "/smm/smm-9.jpg"],
     href: "6",
     description:
@@ -100,6 +107,7 @@ export const data = [
       "Contest and Campaign Management",
       "Reputation Management",
       "25 marketing posts",
+
       "6 marketing reels",
     ],
   },

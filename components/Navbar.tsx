@@ -47,7 +47,16 @@ const Navbar = () => {
                 >
                   what we do
                 </Link>
+<<<<<<< HEAD
 
+=======
+                <Link
+                  href={"/pricing"}
+                  className={buttonVariants({ variant: "ghost" })}
+                >
+                  Pricing
+                </Link>
+>>>>>>> d23481c7187ca6b5550951e8c857cddd836e2761
                 <Link
                   href={"https://wa.me/message/KZYCFDFL3N6NA1?src=qr"}
                   className={buttonVariants({ variant: "ghost" })}
