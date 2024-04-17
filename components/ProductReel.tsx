@@ -42,33 +42,21 @@ const ProductReel = (props: ProductReelProps) => {
                 <Card
                   name="Basic Plan - Essential Social Boost"
                   label="Social media marketing"
-<<<<<<< HEAD
                   price={12000}
-=======
-                  price={7000}
->>>>>>> d23481c7187ca6b5550951e8c857cddd836e2761
                   urls={["/smm/smm-1.jpg", "/smm/smm-2.jpg", "/smm/smm-3.jpg"]}
                   href="4"
                 />
                 <Card
                   name="Pro Plan - Premium Engagement Suite"
                   label="Social media marketing"
-<<<<<<< HEAD
                   price={15000}
-=======
-                  price={10000}
->>>>>>> d23481c7187ca6b5550951e8c857cddd836e2761
                   urls={["/smm/smm-4.jpg", "/smm/smm-5.jpg", "/smm/smm-6.jpg"]}
                   href="5"
                 />
                 <Card
                   name="Enterprise Plan - Strategic Social Dominance"
                   label="Social media marketing"
-<<<<<<< HEAD
                   price={18000}
-=======
-                  price={14000}
->>>>>>> d23481c7187ca6b5550951e8c857cddd836e2761
                   urls={["/smm/smm-7.jpg", "/smm/smm-8.jpg", "/smm/smm-9.jpg"]}
                   href="6"
                 />
