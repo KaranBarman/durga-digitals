@@ -79,7 +79,6 @@ export default function Home() {
                   alt="com"
                   width={100}
                   height={100}
-                  className=" grayscale"
                 />
               </li>
               <li>
